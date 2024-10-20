@@ -1,0 +1,1 @@
+const wrapper=document.querySelector(".wrapper"),registerLink=document.querySelector(".register-link"),loginLink=document.querySelector(".login-link");registerLink.onclick=()=>{wrapper.classList.add("active")},loginLink.onclick=()=>{wrapper.classList.remove("active")};
